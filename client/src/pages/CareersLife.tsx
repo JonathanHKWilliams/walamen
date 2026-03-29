@@ -125,7 +125,7 @@ const CareersLife = () => {
               <div className="flex items-center space-x-4">
                 <div className="w-16 h-16 overflow-hidden rounded-lg">
                   <img 
-                    src="https://images.unsplash.com/photo-1550745165-9bc0b252726a?w=100&q=80&auto=format&fit=crop"
+                    src="/assets/images/careers-dropdown.jpg"
                     alt="Cloud Architecture"
                     className="w-full h-full object-cover"
                     onError={(e) => {
@@ -149,7 +149,7 @@ const CareersLife = () => {
               <div className="flex items-center space-x-4">
                 <div className="w-16 h-16 overflow-hidden rounded-lg">
                   <img 
-                    src="https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=100&q=80&auto=format&fit=crop"
+                    src="/assets/images/careers-dropdown.jpg"
                     alt="Software Engineering"
                     className="w-full h-full object-cover"
                     onError={(e) => {
@@ -173,7 +173,7 @@ const CareersLife = () => {
               <div className="flex items-center space-x-4">
                 <div className="w-16 h-16 overflow-hidden rounded-lg">
                   <img 
-                    src="https://images.unsplash.com/photo-1556761175-b413da4baf72?w=100&q=80&auto=format&fit=crop"
+                    src="/assets/images/careers-dropdown.jpg"
                     alt="Strategy Consulting"
                     className="w-full h-full object-cover"
                     onError={(e) => {
@@ -197,7 +197,7 @@ const CareersLife = () => {
               <div className="flex items-center space-x-4">
                 <div className="w-16 h-16 overflow-hidden rounded-lg">
                   <img 
-                    src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=100&q=80&auto=format&fit=crop"
+                    src="/assets/images/careers-dropdown.jpg"
                     alt="Data Engineering"
                     className="w-full h-full object-cover"
                     onError={(e) => {
@@ -221,7 +221,7 @@ const CareersLife = () => {
               <div className="flex items-center space-x-4">
                 <div className="w-16 h-16 overflow-hidden rounded-lg">
                   <img 
-                    src="https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=100&q=80&auto=format&fit=crop"
+                    src="/assets/images/careers-dropdown.jpg"
                     alt="DevOps Engineering"
                     className="w-full h-full object-cover"
                     onError={(e) => {
@@ -245,7 +245,7 @@ const CareersLife = () => {
               <div className="flex items-center space-x-4">
                 <div className="w-16 h-16 overflow-hidden rounded-lg">
                   <img 
-                    src="https://images.unsplash.com/photo-1555255701-c57933284687?w=100&q=80&auto=format&fit=crop"
+                    src="/assets/images/careers-dropdown.jpg"
                     alt="AI/ML Engineering"
                     className="w-full h-full object-cover"
                     onError={(e) => {

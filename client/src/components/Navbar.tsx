@@ -208,7 +208,7 @@ const Navbar = () => {
                           <div className="w-2/5 bg-gray-50 relative">
                             <div className="absolute left-0 top-0 bottom-0 w-40">
                               <img 
-                                src="/src/assets/images/what-we-do-dropdown.jpg"
+                                src="/assets/images/what-we-do-dropdown.jpg"
                                 alt="Engineering and Technology"
                                 className="w-full h-full object-cover"
                                 onError={(e) => {
@@ -296,7 +296,7 @@ const Navbar = () => {
                           <div className="w-2/5 bg-gray-50 relative">
                             <div className="absolute left-0 top-0 bottom-0 w-40">
                               <img 
-                                src="/src/assets/images/industries-dropdown.jpg"
+                                src="/assets/images/industries-dropdown.jpg"
                                 alt="Business Industries"
                                 className="w-full h-full object-cover"
                                 onError={(e) => {
@@ -375,7 +375,7 @@ const Navbar = () => {
                           <div className="w-2/5 bg-gray-50 relative">
                             <div className="absolute left-0 top-0 bottom-0 w-40">
                               <img 
-                                src="/src/assets/images/about-dropdown.jpg"
+                                src="/assets/images/about-dropdown.jpg"
                                 alt="About Walamen"
                                 className="w-full h-full object-cover"
                                 onError={(e) => {
@@ -454,7 +454,7 @@ const Navbar = () => {
                           <div className="w-2/5 bg-gray-50 relative">
                             <div className="absolute left-0 top-0 bottom-0 w-40">
                               <img 
-                                src="/src/assets/images/careers-dropdown.jpg"
+                                src="/assets/images/careers-dropdown.jpg"
                                 alt="Careers at Walamen"
                                 className="w-full h-full object-cover"
                                 onError={(e) => {
@@ -565,7 +565,7 @@ const Navbar = () => {
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 <img 
-                  src="/src/assets/images/logo.png" 
+                  src="/assets/images/logo.png" 
                   alt="Walamen" 
                   className="h-8 w-auto object-contain transition-transform duration-200 group-hover:scale-105"
                   onError={(e) => {

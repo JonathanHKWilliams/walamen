@@ -342,7 +342,7 @@ const Home = () => {
             <div className="lg:col-span-3 bg-white overflow-hidden">
               <div className="aspect-w-16 aspect-h-9">
                 <img
-                  src="/src/assets/images/work-enterprise-platform.jpg"
+                  src="/assets/images/work-enterprise-platform.jpg"
                   alt="Enterprise platform transformation"
                   className="w-full h-64 object-cover"
                   onError={(e) => {
@@ -376,7 +376,7 @@ const Home = () => {
               <div className="bg-white overflow-hidden">
                 <div className="aspect-w-16 aspect-h-9">
                   <img
-                    src="/src/assets/images/work-ai-analytics.jpg"
+                    src="/assets/images/work-ai-analytics.jpg"
                     alt="AI-powered analytics dashboard"
                     className="w-full h-40 object-cover"
                     onError={(e) => {
@@ -408,7 +408,7 @@ const Home = () => {
               <div className="bg-white overflow-hidden">
                 <div className="aspect-w-16 aspect-h-9">
                   <img
-                    src="/src/assets/images/work-cloud-migration.jpg"
+                    src="/assets/images/work-cloud-migration.jpg"
                     alt="Cloud infrastructure migration"
                     className="w-full h-40 object-cover"
                     onError={(e) => {
@@ -660,7 +660,7 @@ const Home = () => {
             <article className="bg-white rounded-lg overflow-hidden transition-shadow duration-300">
               <div className="aspect-w-16 aspect-h-9">
                 <img
-                  src="/src/assets/images/insight-cloud-transformation.jpg"
+                  src="/assets/images/insight-cloud-transformation.jpg"
                   alt="Cloud transformation strategies"
                   className="w-full h-48 object-cover"
                   onError={(e) => {
@@ -691,7 +691,7 @@ const Home = () => {
             <article className="bg-white rounded-lg overflow-hidden transition-shadow duration-300">
               <div className="aspect-w-16 aspect-h-9">
                 <img
-                  src="/src/assets/images/insight-ai-revolution.jpg"
+                  src="/assets/images/insight-ai-revolution.jpg"
                   alt="AI and machine learning in business"
                   className="w-full h-48 object-cover"
                   onError={(e) => {
@@ -722,7 +722,7 @@ const Home = () => {
             <article className="bg-white rounded-lg overflow-hidden transition-shadow duration-300">
               <div className="aspect-w-16 aspect-h-9">
                 <img
-                  src="/src/assets/images/insight-cybersecurity.jpg"
+                  src="/assets/images/insight-cybersecurity.jpg"
                   alt="Cybersecurity best practices"
                   className="w-full h-48 object-cover"
                   onError={(e) => {

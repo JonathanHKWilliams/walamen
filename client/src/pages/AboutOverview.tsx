@@ -35,7 +35,7 @@ const AboutOverview = () => {
             </div>
             <div>
               <img
-                src="/src/assets/images/about-overview-hero.jpg"
+                src="/assets/images/about-overview-hero.jpg"
                 alt="Walamen team collaborating"
                 className="w-full h-96 object-cover rounded-lg shadow-lg"
                 onError={(e) => {
@@ -108,7 +108,7 @@ const AboutOverview = () => {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="order-2 lg:order-1">
               <img
-                src="/src/assets/images/about-approach.jpg"
+                src="/assets/images/about-vision.jpg"
                 alt="Our approach in action"
                 className="w-full h-96 object-cover rounded-lg shadow-lg"
                 onError={(e) => {
