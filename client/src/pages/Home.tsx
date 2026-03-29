@@ -79,27 +79,27 @@ const Home = () => {
   const industries = [
     {
       title: 'Technology & SaaS',
-      image: '/src/assets/images/what-we-do-dropdown.jpg',
+      image: '/images/hero-carousel-1.jpg',
     },
     {
       title: 'Financial Services',
-      image: '/src/assets/images/industries-dropdown.jpg',
+      image: '/images/hero-carousel-2.jpg',
     },
     {
       title: 'Healthcare',
-      image: '/src/assets/images/work-enterprise-platform.jpg',
+      image: '/images/insight-cloud-transformation.jpg',
     },
     {
       title: 'Energy & Infrastructure',
-      image: '/src/assets/images/work-cloud-migration.jpg',
+      image: '/images/insight-ai-revolution.jpg',
     },
     {
       title: 'Professional Services',
-      image: '/src/assets/images/work-ai-analytics.jpg',
+      image: '/images/work-ai-analytics.jpg',
     },
     {
       title: 'Consumer & Retail',
-      image: '/src/assets/images/careers-dropdown.jpg',
+      image: '/images/work-cloud-migration.jpg',
     },
   ];
 

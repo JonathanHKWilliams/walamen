@@ -25,34 +25,6 @@ const CareersLife = () => {
     }
   ];
 
-  const culture = [
-    {
-      title: 'High Performance',
-      description:
-        'We set ambitious goals and hold ourselves accountable. Our work directly impacts enterprise operations and strategic outcomes. This responsibility demands excellence, and we provide the support and resources to achieve it.',
-    },
-    {
-      title: 'Continuous Learning',
-      description:
-        'Technology evolves rapidly, and so do we. We invest heavily in professional development through training, conferences, certifications, and dedicated learning time. Growth is not just encouraged—it is expected and supported.',
-    },
-    {
-      title: 'Intellectual Environment',
-      description:
-        'We hire curious, thoughtful people who enjoy complex problems. Our internal discussions are rigorous and substantive. Ideas are evaluated on merit, and everyone is expected to contribute to our collective understanding.',
-    },
-    {
-      title: 'Work-Life Integration',
-      description:
-        'We believe in sustainable high performance. While our work is demanding, we respect personal time and encourage balance. Burnout serves no one. We optimize for long-term contribution and career growth.',
-    },
-    {
-      title: 'Diverse Perspectives',
-      description:
-        'Our best solutions emerge from cognitive diversity. We actively seek team members with varied backgrounds, experiences, and viewpoints. Respectful debate and intellectual challenge make us stronger.',
-    },
-  ];
-
   return (
     <div>
       <SectionWrapper background="white">

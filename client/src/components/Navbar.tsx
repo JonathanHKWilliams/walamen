@@ -160,13 +160,24 @@ const Navbar = () => {
               src="/images/logo.png" 
               alt="Walamen" 
               className="h-10 w-auto object-contain transition-transform duration-200 group-hover:scale-105"
-              onError={(e) => {
-                // Fallback to text logo if image not found
+              loading="eager"
+              onLoad={(e) => {
+                // Hide fallback when logo loads successfully
                 const target = e.target as HTMLImageElement;
-                target.style.display = 'none';
                 const fallback = target.nextElementSibling as HTMLElement;
-                if (fallback) fallback.style.display = 'block';
+                if (fallback) fallback.style.display = 'none';
+                target.style.display = 'block';
               }}
+              onError={(e) => {
+                // Fallback to text logo only on actual error
+                const target = e.target as HTMLImageElement;
+                if (target.naturalWidth === 0) {
+                  target.style.display = 'none';
+                  const fallback = target.nextElementSibling as HTMLElement;
+                  if (fallback) fallback.style.display = 'block';
+                }
+              }}
+              style={{ display: 'block' }}
             />
             <div className="text-3xl font-bold tracking-tight" style={{display: 'none'}}>
               <span className="text-[#043685]">WALA</span>
@@ -568,12 +579,24 @@ const Navbar = () => {
                   src="/images/logo.png" 
                   alt="Walamen" 
                   className="h-8 w-auto object-contain transition-transform duration-200 group-hover:scale-105"
-                  onError={(e) => {
+                  loading="eager"
+                  onLoad={(e) => {
+                    // Hide fallback when logo loads successfully
                     const target = e.target as HTMLImageElement;
-                    target.style.display = 'none';
                     const fallback = target.nextElementSibling as HTMLElement;
-                    if (fallback) fallback.style.display = 'block';
+                    if (fallback) fallback.style.display = 'none';
+                    target.style.display = 'block';
                   }}
+                  onError={(e) => {
+                    // Fallback to text logo only on actual error
+                    const target = e.target as HTMLImageElement;
+                    if (target.naturalWidth === 0) {
+                      target.style.display = 'none';
+                      const fallback = target.nextElementSibling as HTMLElement;
+                      if (fallback) fallback.style.display = 'block';
+                    }
+                  }}
+                  style={{ display: 'block' }}
                 />
                 <div className="text-2xl font-bold tracking-tight" style={{display: 'none'}}>
                   <span className="text-[#043685]">WALA</span>
