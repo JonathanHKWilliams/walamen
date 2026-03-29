@@ -208,13 +208,13 @@ const Navbar = () => {
                           <div className="w-2/5 bg-gray-50 relative">
                             <div className="absolute left-0 top-0 bottom-0 w-40">
                               <img 
-                                src="/assets/images/what-we-do-dropdown.jpg"
+                                src="/src/assets/images/what-we-do-dropdown.jpg"
                                 alt="Engineering and Technology"
                                 className="w-full h-full object-cover"
                                 onError={(e) => {
                                   // Fallback to placeholder if image not found
                                   const target = e.target as HTMLImageElement;
-                                  target.src = "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=200&q=80&auto=format&fit=crop";
+                                  target.src = "/src/assets/images/what-we-do-dropdown.jpg";
                                 }}
                               />
                             </div>
@@ -296,13 +296,13 @@ const Navbar = () => {
                           <div className="w-2/5 bg-gray-50 relative">
                             <div className="absolute left-0 top-0 bottom-0 w-40">
                               <img 
-                                src="/assets/images/industries-dropdown.jpg"
+                                src="/src/assets/images/industries-dropdown.jpg"
                                 alt="Business Industries"
                                 className="w-full h-full object-cover"
                                 onError={(e) => {
                                   // Fallback to placeholder if image not found
                                   const target = e.target as HTMLImageElement;
-                                  target.src = "https://images.unsplash.com/photo-1497366216548-5973dc0f32e7?w=200&q=80&auto=format&fit=crop";
+                                  target.src = "/src/assets/images/industries-dropdown.jpg";
                                 }}
                               />
                             </div>
@@ -375,13 +375,13 @@ const Navbar = () => {
                           <div className="w-2/5 bg-gray-50 relative">
                             <div className="absolute left-0 top-0 bottom-0 w-40">
                               <img 
-                                src="/assets/images/about-dropdown.jpg"
+                                src="/src/assets/images/about-dropdown.jpg"
                                 alt="About Walamen"
                                 className="w-full h-full object-cover"
                                 onError={(e) => {
                                   // Fallback to placeholder if image not found
                                   const target = e.target as HTMLImageElement;
-                                  target.src = "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=200&q=80&auto=format&fit=crop";
+                                  target.src = "/src/assets/images/about-dropdown.jpg";
                                 }}
                               />
                             </div>
@@ -454,13 +454,13 @@ const Navbar = () => {
                           <div className="w-2/5 bg-gray-50 relative">
                             <div className="absolute left-0 top-0 bottom-0 w-40">
                               <img 
-                                src="/assets/images/careers-dropdown.jpg"
+                                src="/src/assets/images/careers-dropdown.jpg"
                                 alt="Careers at Walamen"
                                 className="w-full h-full object-cover"
                                 onError={(e) => {
                                   // Fallback to placeholder if image not found
                                   const target = e.target as HTMLImageElement;
-                                  target.src = "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=200&q=80&auto=format&fit=crop";
+                                  target.src = "/src/assets/images/careers-dropdown.jpg";
                                 }}
                               />
                             </div>
@@ -565,7 +565,7 @@ const Navbar = () => {
                 onClick={() => setIsMobileMenuOpen(false)}
               >
                 <img 
-                  src="/assets/images/logo.png" 
+                  src="/src/assets/images/logo.png" 
                   alt="Walamen" 
                   className="h-8 w-auto object-contain transition-transform duration-200 group-hover:scale-105"
                   onError={(e) => {

@@ -72,16 +72,12 @@ const AboutTeam = () => {
 
           <div className="grid md:grid-cols-3 gap-8 mb-16">
             {leadership.map((member) => (
-              <div key={member.name} className="bg-white rounded-lg shadow-lg overflow-hidden">
+              <div key={member.name} className="bg-white rounded-lg overflow-hidden">
                 <div className="aspect-w-4 aspect-h-5">
                   <img
                     src={member.image}
                     alt={member.name}
                     className="w-full h-80 object-cover"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.src = "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&q=80";
-                    }}
                   />
                 </div>
                 <div className="p-6">
@@ -120,10 +116,6 @@ const AboutTeam = () => {
                     src={member.image}
                     alt={member.name}
                     className="w-full h-64 object-cover"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.src = "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=400&q=80";
-                    }}
                   />
                 </div>
                 <div className="p-6">

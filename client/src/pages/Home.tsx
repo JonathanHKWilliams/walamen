@@ -12,18 +12,15 @@ const Home = () => {
   const heroImages = [
     {
       src: "/src/assets/images/hero-carousel-1.jpg",
-      alt: "Engineering and technology solutions",
-      fallback: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=1600&q=90&auto=format&fit=crop&sharp=10"
+      alt: "Engineering and technology solutions"
     },
     {
       src: "/src/assets/images/hero-carousel-2.jpg",
-      alt: "Innovative technology solutions",
-      fallback: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=1600&q=90&auto=format&fit=crop&sharp=10"
+      alt: "Innovative technology solutions"
     },
     {
       src: "/src/assets/images/hero-carousel-3.jpg",
-      alt: "Strategic business consulting",
-      fallback: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=1600&q=90&auto=format&fit=crop&sharp=10"
+      alt: "Strategic business consulting"
     }
   ];
 
@@ -82,27 +79,27 @@ const Home = () => {
   const industries = [
     {
       title: 'Technology & SaaS',
-      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80',
+      image: '/src/assets/images/what-we-do-dropdown.jpg',
     },
     {
       title: 'Financial Services',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80',
+      image: '/src/assets/images/industries-dropdown.jpg',
     },
     {
       title: 'Healthcare',
-      image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80',
+      image: '/src/assets/images/work-enterprise-platform.jpg',
     },
     {
       title: 'Energy & Infrastructure',
-      image: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&q=80',
+      image: '/src/assets/images/work-cloud-migration.jpg',
     },
     {
       title: 'Professional Services',
-      image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80',
+      image: '/src/assets/images/work-ai-analytics.jpg',
     },
     {
       title: 'Consumer & Retail',
-      image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80',
+      image: '/src/assets/images/careers-dropdown.jpg',
     },
   ];
 
@@ -190,9 +187,8 @@ const Home = () => {
                         backfaceVisibility: 'hidden' as any
                       }}
                       onError={(e) => {
-                        // Fallback to placeholder if image not found
                         const target = e.target as HTMLImageElement;
-                        target.src = "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=90&auto=format&fit=crop&sharp=10";
+                        target.src = "/src/assets/images/default-image.jpg";
                       }}
                     />
                   </div>
@@ -342,13 +338,9 @@ const Home = () => {
             <div className="lg:col-span-3 bg-white overflow-hidden">
               <div className="aspect-w-16 aspect-h-9">
                 <img
-                  src="/assets/images/work-enterprise-platform.jpg"
+                  src="/src/assets/images/work-enterprise-platform.jpg"
                   alt="Enterprise platform transformation"
                   className="w-full h-64 object-cover"
-                  onError={(e) => {
-                    const target = e.target as HTMLImageElement;
-                    target.src = "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80&auto=format&fit=crop";
-                  }}
                 />
               </div>
               <div className="p-6">
@@ -376,13 +368,9 @@ const Home = () => {
               <div className="bg-white overflow-hidden">
                 <div className="aspect-w-16 aspect-h-9">
                   <img
-                    src="/assets/images/work-ai-analytics.jpg"
+                    src="/src/assets/images/work-ai-analytics.jpg"
                     alt="AI-powered analytics dashboard"
                     className="w-full h-40 object-cover"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.src = "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=400&q=80&auto=format&fit=crop";
-                    }}
                   />
                 </div>
                 <div className="p-4">
@@ -408,13 +396,9 @@ const Home = () => {
               <div className="bg-white overflow-hidden">
                 <div className="aspect-w-16 aspect-h-9">
                   <img
-                    src="/assets/images/work-cloud-migration.jpg"
+                    src="/src/assets/images/work-cloud-migration.jpg"
                     alt="Cloud infrastructure migration"
                     className="w-full h-40 object-cover"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.src = "https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=400&q=80&auto=format&fit=crop";
-                    }}
                   />
                 </div>
                 <div className="p-4">
@@ -542,10 +526,6 @@ const Home = () => {
                     src={industry.image}
                     alt={industry.title}
                     className="w-full h-full object-cover rounded-lg"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.src = "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=80&q=80&auto=format&fit=crop";
-                    }}
                   />
                 </div>
                 <h3 className="text-sm font-bold text-[#0A0A0A] leading-tight">{industry.title}</h3>
@@ -660,13 +640,13 @@ const Home = () => {
             <article className="bg-white rounded-lg overflow-hidden transition-shadow duration-300">
               <div className="aspect-w-16 aspect-h-9">
                 <img
-                  src="/assets/images/insight-cloud-transformation.jpg"
+                  src="/src/assets/images/insight-cloud-transformation.jpg"
                   alt="Cloud transformation strategies"
                   className="w-full h-48 object-cover"
                   onError={(e) => {
                     // Fallback to placeholder if image not found
                     const target = e.target as HTMLImageElement;
-                    target.src = "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&q=80&auto=format&fit=crop";
+                    target.src = "/src/assets/images/hero-carousel-1.jpg";
                   }}
                 />
               </div>
@@ -691,13 +671,13 @@ const Home = () => {
             <article className="bg-white rounded-lg overflow-hidden transition-shadow duration-300">
               <div className="aspect-w-16 aspect-h-9">
                 <img
-                  src="/assets/images/insight-ai-revolution.jpg"
+                  src="/src/assets/images/insight-ai-revolution.jpg"
                   alt="AI and machine learning in business"
                   className="w-full h-48 object-cover"
                   onError={(e) => {
                     // Fallback to placeholder if image not found
                     const target = e.target as HTMLImageElement;
-                    target.src = "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&q=80&auto=format&fit=crop";
+                    target.src = "/src/assets/images/hero-carousel-2.jpg";
                   }}
                 />
               </div>
@@ -722,13 +702,13 @@ const Home = () => {
             <article className="bg-white rounded-lg overflow-hidden transition-shadow duration-300">
               <div className="aspect-w-16 aspect-h-9">
                 <img
-                  src="/assets/images/insight-cybersecurity.jpg"
+                  src="/src/assets/images/insight-cybersecurity.jpg"
                   alt="Cybersecurity best practices"
                   className="w-full h-48 object-cover"
                   onError={(e) => {
                     // Fallback to placeholder if image not found
                     const target = e.target as HTMLImageElement;
-                    target.src = "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=600&q=80&auto=format&fit=crop";
+                    target.src = "/src/assets/images/hero-carousel-3.jpg";
                   }}
                 />
               </div>

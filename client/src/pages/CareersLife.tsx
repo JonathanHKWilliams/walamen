@@ -6,22 +6,22 @@ const CareersLife = () => {
     {
       title: 'Collaborative Environment',
       message: 'Work alongside talented professionals who challenge and inspire you. Our open-door policy encourages direct communication and knowledge sharing.',
-      image: 'https://images.unsplash.com/photo-1521737604893-d14cc237f11d?w=400&q=80&auto=format&fit=crop'
+      image: '/src/assets/images/careers-dropdown.jpg'
     },
     {
       title: 'Innovation Hub',
       message: 'Be part of cutting-edge projects that push boundaries. We encourage experimentation and provide resources for exploring new ideas and approaches.',
-      image: 'https://images.unsplash.com/photo-1552664730-d307ca884978?w=400&q=80&auto=format&fit=crop'
+      image: '/src/assets/images/careers-dropdown.jpg'
     },
     {
       title: 'Global Impact',
       message: 'Make a difference on projects that shape industries. Our work spans multiple sectors and geographies, offering diverse challenges and learning opportunities.',
-      image: 'https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400&q=80&auto=format&fit=crop'
+      image: '/src/assets/images/careers-dropdown.jpg'
     },
     {
       title: 'Work-Life Balance',
       message: 'Enjoy flexible work arrangements and a culture that respects personal time. We believe sustainable performance requires balance and support our team.',
-      image: 'https://images.unsplash.com/photo-1606321286862-b758e5e8fd1b?w=400&q=80&auto=format&fit=crop'
+      image: '/src/assets/images/careers-dropdown.jpg'
     }
   ];
 
@@ -90,10 +90,6 @@ const CareersLife = () => {
                     src={item.image}
                     alt={item.title}
                     className="w-full h-full object-cover"
-                    onError={(e) => {
-                      const target = e.target as HTMLImageElement;
-                      target.src = `https://images.unsplash.com/photo-1557804506-669a67965ba0?w=400&q=80&auto=format&fit=crop`;
-                    }}
                   />
                 </div>
                 <div className="p-4">
@@ -125,7 +121,7 @@ const CareersLife = () => {
               <div className="flex items-center space-x-4">
                 <div className="w-16 h-16 overflow-hidden rounded-lg">
                   <img 
-                    src="/assets/images/careers-dropdown.jpg"
+                    src="/src/assets/images/careers-dropdown.jpg"
                     alt="Cloud Architecture"
                     className="w-full h-full object-cover"
                     onError={(e) => {
@@ -149,7 +145,7 @@ const CareersLife = () => {
               <div className="flex items-center space-x-4">
                 <div className="w-16 h-16 overflow-hidden rounded-lg">
                   <img 
-                    src="/assets/images/careers-dropdown.jpg"
+                    src="/src/assets/images/careers-dropdown.jpg"
                     alt="Software Engineering"
                     className="w-full h-full object-cover"
                     onError={(e) => {
@@ -173,7 +169,7 @@ const CareersLife = () => {
               <div className="flex items-center space-x-4">
                 <div className="w-16 h-16 overflow-hidden rounded-lg">
                   <img 
-                    src="/assets/images/careers-dropdown.jpg"
+                    src="/src/assets/images/careers-dropdown.jpg"
                     alt="Strategy Consulting"
                     className="w-full h-full object-cover"
                     onError={(e) => {
@@ -197,7 +193,7 @@ const CareersLife = () => {
               <div className="flex items-center space-x-4">
                 <div className="w-16 h-16 overflow-hidden rounded-lg">
                   <img 
-                    src="/assets/images/careers-dropdown.jpg"
+                    src="/src/assets/images/careers-dropdown.jpg"
                     alt="Data Engineering"
                     className="w-full h-full object-cover"
                     onError={(e) => {
@@ -221,7 +217,7 @@ const CareersLife = () => {
               <div className="flex items-center space-x-4">
                 <div className="w-16 h-16 overflow-hidden rounded-lg">
                   <img 
-                    src="/assets/images/careers-dropdown.jpg"
+                    src="/src/assets/images/careers-dropdown.jpg"
                     alt="DevOps Engineering"
                     className="w-full h-full object-cover"
                     onError={(e) => {
@@ -245,7 +241,7 @@ const CareersLife = () => {
               <div className="flex items-center space-x-4">
                 <div className="w-16 h-16 overflow-hidden rounded-lg">
                   <img 
-                    src="/assets/images/careers-dropdown.jpg"
+                    src="/src/assets/images/careers-dropdown.jpg"
                     alt="AI/ML Engineering"
                     className="w-full h-full object-cover"
                     onError={(e) => {

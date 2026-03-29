@@ -63,13 +63,9 @@ const AboutVisionValues = () => {
             </div>
             <div>
               <img
-                src="/assets/images/about-vision.jpg"
+                src="/src/assets/images/about-vision.jpg"
                 alt="Our vision for the future"
-                className="w-full h-96 object-cover rounded-lg shadow-lg"
-                onError={(e) => {
-                  const target = e.target as HTMLImageElement;
-                  target.src = "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&q=80&auto=format&fit=crop";
-                }}
+                className="w-full h-96 object-cover rounded-lg"
               />
             </div>
           </div>

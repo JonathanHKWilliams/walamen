@@ -35,13 +35,9 @@ const AboutOverview = () => {
             </div>
             <div>
               <img
-                src="/assets/images/about-overview-hero.jpg"
+                src="/src/assets/images/about-overview-hero.jpg"
                 alt="Walamen team collaborating"
-                className="w-full h-96 object-cover rounded-lg shadow-lg"
-                onError={(e) => {
-                  const target = e.target as HTMLImageElement;
-                  target.src = "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800&q=80&auto=format&fit=crop";
-                }}
+                className="w-full h-96 object-cover rounded-lg"
               />
             </div>
           </div>
@@ -108,13 +104,9 @@ const AboutOverview = () => {
           <div className="grid lg:grid-cols-2 gap-16 items-center">
             <div className="order-2 lg:order-1">
               <img
-                src="/assets/images/about-vision.jpg"
+                src="/src/assets/images/about-approach.jpg"
                 alt="Our approach in action"
-                className="w-full h-96 object-cover rounded-lg shadow-lg"
-                onError={(e) => {
-                  const target = e.target as HTMLImageElement;
-                  target.src = "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?w=800&q=80&auto=format&fit=crop";
-                }}
+                className="w-full h-96 object-cover rounded-lg"
               />
             </div>
             <div className="order-1 lg:order-2">

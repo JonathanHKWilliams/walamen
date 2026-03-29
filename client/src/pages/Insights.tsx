@@ -6,12 +6,12 @@ import CTASection from '../components/CTASection';
 const Insights = () => {
   const articles = [
     {
-      title: 'The Hidden Cost of Technical Debt in Enterprise Systems',
+      title: 'Technical Debt: The Hidden Cost of Shortcuts',
       category: 'Engineering',
       date: 'March 15, 2024',
       excerpt:
         'Technical debt is not just a development problem—it\'s a strategic liability. We examine how accumulated shortcuts and workarounds compound over time, degrading system performance and constraining business agility.',
-      image: 'https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=800&q=80',
+      image: '/src/assets/images/insight-cloud-transformation.jpg',
     },
     {
       title: 'Cloud Migration: Beyond Lift and Shift',
@@ -19,7 +19,7 @@ const Insights = () => {
       date: 'March 8, 2024',
       excerpt:
         'Moving to the cloud without rearchitecting systems is a missed opportunity. We explore strategies for cloud-native transformation that unlock scalability, resilience, and operational efficiency.',
-      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80',
+      image: '/src/assets/images/insight-ai-revolution.jpg',
     },
     {
       title: 'AI Integration in Production Systems',
@@ -27,7 +27,7 @@ const Insights = () => {
       date: 'February 28, 2024',
       excerpt:
         'Deploying machine learning models at scale requires more than data science expertise. We outline the engineering challenges of productionizing AI and strategies for reliable, maintainable ML systems.',
-      image: 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&q=80',
+      image: '/src/assets/images/insight-cybersecurity.jpg',
     },
     {
       title: 'Modernizing Legacy Banking Infrastructure',
@@ -35,7 +35,7 @@ const Insights = () => {
       date: 'February 20, 2024',
       excerpt:
         'Financial institutions face unique challenges when modernizing core systems. We share lessons from successful transformations that balanced innovation with regulatory compliance and operational continuity.',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80',
+      image: '/src/assets/images/work-enterprise-platform.jpg',
     },
     {
       title: 'Platform Engineering: Building Internal Developer Platforms',
@@ -43,7 +43,7 @@ const Insights = () => {
       date: 'February 12, 2024',
       excerpt:
         'Internal developer platforms can dramatically improve engineering productivity. We examine the organizational, technical, and cultural factors that determine platform success.',
-      image: 'https://images.unsplash.com/photo-1518432031352-d6fc5c10da5a?w=800&q=80',
+      image: '/src/assets/images/work-ai-analytics.jpg',
     },
     {
       title: 'Data Mesh: When and Why to Decentralize',
@@ -51,7 +51,7 @@ const Insights = () => {
       date: 'February 5, 2024',
       excerpt:
         'Data mesh architectures promise better scalability and domain ownership, but they introduce new complexity. We analyze when centralized vs. decentralized data strategies make sense.',
-      image: 'https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&q=80',
+      image: '/src/assets/images/work-cloud-migration.jpg',
     },
   ];
 

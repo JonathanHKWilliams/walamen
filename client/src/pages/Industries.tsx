@@ -1,3 +1,4 @@
+import React from 'react';
 import PageHero from '../components/PageHero';
 import Container from '../components/Container';
 import SectionWrapper from '../components/SectionWrapper';
@@ -8,13 +9,13 @@ const Industries = () => {
     {
       id: 'technology-saas',
       title: 'Technology & SaaS',
-      image: 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&q=80',
+      image: '/src/assets/images/what-we-do-dropdown.jpg',
       description: 'Accelerating product development, scaling infrastructure, and optimizing go-to-market for high-growth technology companies.',
       capabilities: [
         'Platform engineering and scalability',
-        'Product-market fit optimization',
-        'Technical due diligence',
-        'Engineering team augmentation',
+        'Cloud-native architecture',
+        'DevOps and CI/CD pipelines',
+        'API integration and microservices'
       ],
       caseStudies: [
         'Scaled SaaS platform to 10M+ users',
@@ -25,13 +26,13 @@ const Industries = () => {
     {
       id: 'financial-services',
       title: 'Financial Services',
-      image: 'https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&q=80',
+      image: '/src/assets/images/industries-dropdown.jpg',
       description: 'Building secure, compliant systems that power modern financial operations and customer experiences.',
       capabilities: [
         'Core banking modernization',
-        'Trading and risk systems',
-        'Regulatory compliance',
-        'Digital banking platforms',
+        'Regulatory compliance solutions',
+        'Payment processing systems',
+        'Risk management platforms'
       ],
       caseStudies: [
         'Modernized legacy banking system',
@@ -42,13 +43,13 @@ const Industries = () => {
     {
       id: 'healthcare',
       title: 'Healthcare',
-      image: 'https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&q=80',
+      image: '/src/assets/images/work-enterprise-platform.jpg',
       description: 'Transforming patient care through secure, interoperable systems and data-driven clinical insights.',
       capabilities: [
         'Electronic health records',
+        'Telemedicine platforms',
         'Clinical decision support',
-        'Healthcare interoperability',
-        'Patient engagement platforms',
+        'Healthcare data analytics'
       ],
       caseStudies: [
         'Integrated EHR across 5 hospitals',
@@ -59,13 +60,13 @@ const Industries = () => {
     {
       id: 'energy-infrastructure',
       title: 'Energy & Infrastructure',
-      image: 'https://images.unsplash.com/photo-1473341304170-971dccb5ac1e?w=800&q=80',
+      image: '/src/assets/images/work-cloud-migration.jpg',
       description: 'Engineering resilient systems for energy management, smart infrastructure, and sustainable operations.',
       capabilities: [
         'Smart grid systems',
-        'Asset management platforms',
-        'Predictive maintenance',
-        'Energy optimization',
+        'Infrastructure monitoring',
+        'Energy management platforms',
+        'Sustainability analytics'
       ],
       caseStudies: [
         'Deployed smart grid for 2M customers',
@@ -76,13 +77,13 @@ const Industries = () => {
     {
       id: 'professional-services',
       title: 'Professional Services',
-      image: 'https://images.unsplash.com/photo-1497366216548-37526070297c?w=800&q=80',
+      image: '/src/assets/images/work-ai-analytics.jpg',
       description: 'Enabling service delivery excellence through automation, analytics, and integrated technology platforms.',
       capabilities: [
         'Service delivery automation',
-        'Knowledge management systems',
-        'Client portal development',
-        'Business intelligence',
+        'Client management systems',
+        'Analytics and reporting',
+        'Workflow optimization'
       ],
       caseStudies: [
         'Automated 80% of service workflows',
@@ -93,13 +94,13 @@ const Industries = () => {
     {
       id: 'consumer-retail',
       title: 'Consumer & Retail',
-      image: 'https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&q=80',
+      image: '/src/assets/images/careers-dropdown.jpg',
       description: 'Creating seamless omnichannel experiences and intelligent supply chain operations.',
       capabilities: [
         'E-commerce platforms',
-        'Supply chain optimization',
-        'Personalization engines',
         'Inventory management',
+        'Customer analytics',
+        'Supply chain optimization'
       ],
       caseStudies: [
         'Increased online sales by 150%',
@@ -126,7 +127,7 @@ const Industries = () => {
             >
               Industry-Specific Solutions
             </h2>
-            <p className="text-xl text-gray-600 mb-12 leading-relaxed">
+            <p className="text-xl text-gray-600 mb-2 leading-relaxed">
               We bring deep domain expertise and technical excellence to every industry we serve. 
               Our solutions are tailored to address unique challenges while leveraging cross-industry 
               insights to drive innovation and competitive advantage.
@@ -136,11 +137,15 @@ const Industries = () => {
       </SectionWrapper>
 
       {/* Industry Sections */}
+      {/* Add divider before Technology & SaaS */}
+      <div className="max-w-6xl mx-auto px-6 sm:px-8 lg:px-12 xl:px-16">
+        <div className="h-px bg-gray-300 my-2"></div>
+      </div>
       {industries.map((industry, index) => (
-        <SectionWrapper
-          key={industry.title}
-          background={index % 2 === 0 ? 'white' : 'gray'}
-        >
+        <React.Fragment key={industry.title}>
+          <SectionWrapper
+            background={index % 2 === 0 ? 'white' : 'gray'}
+          >
           <Container>
             <div className="grid md:grid-cols-2 gap-12 items-center">
               {index % 2 === 0 ? (
@@ -185,7 +190,7 @@ const Industries = () => {
                     <img
                       src={industry.image}
                       alt={industry.title}
-                      className="w-full h-[400px] object-cover rounded-lg shadow-lg"
+                      className="w-full h-[400px] object-cover rounded-lg"
                     />
                   </div>
                 </>
@@ -195,7 +200,7 @@ const Industries = () => {
                     <img
                       src={industry.image}
                       alt={industry.title}
-                      className="w-full h-[400px] object-cover rounded-lg shadow-lg"
+                      className="w-full h-[400px] object-cover rounded-lg"
                     />
                   </div>
                   <div>
@@ -239,6 +244,7 @@ const Industries = () => {
             </div>
           </Container>
         </SectionWrapper>
+        </React.Fragment>
       ))}
 
       {/* Approach Section */}
@@ -251,8 +257,13 @@ const Industries = () => {
             >
               Our Industry Approach
             </h2>
-            <div className="grid md:grid-cols-3 gap-8 mt-12">
-              <div className="text-center">
+            <div className="grid md:grid-cols-3 gap-0 mt-12 relative">
+              {/* Vertical divider between card 1 and 2 */}
+              <div className="hidden md:block absolute left-1/3 top-0 bottom-0 w-px bg-gray-300"></div>
+              {/* Vertical divider between card 2 and 3 */}
+              <div className="hidden md:block absolute left-2/3 top-0 bottom-0 w-px bg-gray-300"></div>
+              
+              <div className="text-center px-6">
                 <div className="w-16 h-16 bg-[#043685] rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-white text-2xl font-bold">1</span>
                 </div>
@@ -262,7 +273,7 @@ const Industries = () => {
                   regulations, and opportunities.
                 </p>
               </div>
-              <div className="text-center">
+              <div className="text-center px-6">
                 <div className="w-16 h-16 bg-[#043685] rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-white text-2xl font-bold">2</span>
                 </div>
@@ -272,7 +283,7 @@ const Industries = () => {
                   cross-sector best practices.
                 </p>
               </div>
-              <div className="text-center">
+              <div className="text-center px-6">
                 <div className="w-16 h-16 bg-[#043685] rounded-full flex items-center justify-center mx-auto mb-4">
                   <span className="text-white text-2xl font-bold">3</span>
                 </div>
