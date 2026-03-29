@@ -11,15 +11,15 @@ const Home = () => {
   
   const heroImages = [
     {
-      src: "/src/assets/images/hero-carousel-1.jpg",
+      src: "/images/hero-carousel-1.jpg",
       alt: "Engineering and technology solutions"
     },
     {
-      src: "/src/assets/images/hero-carousel-2.jpg",
+      src: "/images/hero-carousel-2.jpg",
       alt: "Innovative technology solutions"
     },
     {
-      src: "/src/assets/images/hero-carousel-3.jpg",
+      src: "/images/hero-carousel-3.jpg",
       alt: "Strategic business consulting"
     }
   ];
@@ -338,7 +338,7 @@ const Home = () => {
             <div className="lg:col-span-3 bg-white overflow-hidden">
               <div className="aspect-w-16 aspect-h-9">
                 <img
-                  src="/src/assets/images/work-enterprise-platform.jpg"
+                  src="/images/work-enterprise-platform.jpg"
                   alt="Enterprise platform transformation"
                   className="w-full h-64 object-cover"
                 />
@@ -368,7 +368,7 @@ const Home = () => {
               <div className="bg-white overflow-hidden">
                 <div className="aspect-w-16 aspect-h-9">
                   <img
-                    src="/src/assets/images/work-ai-analytics.jpg"
+                    src="/images/work-ai-analytics.jpg"
                     alt="AI-powered analytics dashboard"
                     className="w-full h-40 object-cover"
                   />
@@ -396,7 +396,7 @@ const Home = () => {
               <div className="bg-white overflow-hidden">
                 <div className="aspect-w-16 aspect-h-9">
                   <img
-                    src="/src/assets/images/work-cloud-migration.jpg"
+                    src="/images/work-cloud-migration.jpg"
                     alt="Cloud infrastructure migration"
                     className="w-full h-40 object-cover"
                   />
@@ -640,13 +640,13 @@ const Home = () => {
             <article className="bg-white rounded-lg overflow-hidden transition-shadow duration-300">
               <div className="aspect-w-16 aspect-h-9">
                 <img
-                  src="/src/assets/images/insight-cloud-transformation.jpg"
+                  src="/images/insight-cloud-transformation.jpg"
                   alt="Cloud transformation strategies"
                   className="w-full h-48 object-cover"
                   onError={(e) => {
                     // Fallback to placeholder if image not found
                     const target = e.target as HTMLImageElement;
-                    target.src = "/src/assets/images/hero-carousel-1.jpg";
+                    target.src = "/images/hero-carousel-1.jpg";
                   }}
                 />
               </div>
@@ -671,13 +671,13 @@ const Home = () => {
             <article className="bg-white rounded-lg overflow-hidden transition-shadow duration-300">
               <div className="aspect-w-16 aspect-h-9">
                 <img
-                  src="/src/assets/images/insight-ai-revolution.jpg"
+                  src="/images/insight-ai-revolution.jpg"
                   alt="AI and machine learning in business"
                   className="w-full h-48 object-cover"
                   onError={(e) => {
                     // Fallback to placeholder if image not found
                     const target = e.target as HTMLImageElement;
-                    target.src = "/src/assets/images/hero-carousel-2.jpg";
+                    target.src = "/images/hero-carousel-2.jpg";
                   }}
                 />
               </div>
@@ -702,13 +702,13 @@ const Home = () => {
             <article className="bg-white rounded-lg overflow-hidden transition-shadow duration-300">
               <div className="aspect-w-16 aspect-h-9">
                 <img
-                  src="/src/assets/images/insight-cybersecurity.jpg"
+                  src="/images/insight-cybersecurity.jpg"
                   alt="Cybersecurity best practices"
                   className="w-full h-48 object-cover"
                   onError={(e) => {
                     // Fallback to placeholder if image not found
                     const target = e.target as HTMLImageElement;
-                    target.src = "/src/assets/images/hero-carousel-3.jpg";
+                    target.src = "/images/hero-carousel-3.jpg";
                   }}
                 />
               </div>

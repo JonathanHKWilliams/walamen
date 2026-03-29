@@ -9,7 +9,7 @@ const Industries = () => {
     {
       id: 'technology-saas',
       title: 'Technology & SaaS',
-      image: '/src/assets/images/what-we-do-dropdown.jpg',
+      image: '/images/what-we-do-dropdown.jpg',
       description: 'Accelerating product development, scaling infrastructure, and optimizing go-to-market for high-growth technology companies.',
       capabilities: [
         'Platform engineering and scalability',
@@ -26,7 +26,7 @@ const Industries = () => {
     {
       id: 'financial-services',
       title: 'Financial Services',
-      image: '/src/assets/images/industries-dropdown.jpg',
+      image: '/images/industries-dropdown.jpg',
       description: 'Building secure, compliant systems that power modern financial operations and customer experiences.',
       capabilities: [
         'Core banking modernization',
@@ -43,7 +43,7 @@ const Industries = () => {
     {
       id: 'healthcare',
       title: 'Healthcare',
-      image: '/src/assets/images/work-enterprise-platform.jpg',
+      image: '/images/work-enterprise-platform.jpg',
       description: 'Transforming patient care through secure, interoperable systems and data-driven clinical insights.',
       capabilities: [
         'Electronic health records',
@@ -60,7 +60,7 @@ const Industries = () => {
     {
       id: 'energy-infrastructure',
       title: 'Energy & Infrastructure',
-      image: '/src/assets/images/work-cloud-migration.jpg',
+      image: '/images/work-cloud-migration.jpg',
       description: 'Engineering resilient systems for energy management, smart infrastructure, and sustainable operations.',
       capabilities: [
         'Smart grid systems',
@@ -77,7 +77,7 @@ const Industries = () => {
     {
       id: 'professional-services',
       title: 'Professional Services',
-      image: '/src/assets/images/work-ai-analytics.jpg',
+      image: '/images/work-ai-analytics.jpg',
       description: 'Enabling service delivery excellence through automation, analytics, and integrated technology platforms.',
       capabilities: [
         'Service delivery automation',
@@ -94,7 +94,7 @@ const Industries = () => {
     {
       id: 'consumer-retail',
       title: 'Consumer & Retail',
-      image: '/src/assets/images/careers-dropdown.jpg',
+      image: '/images/careers-dropdown.jpg',
       description: 'Creating seamless omnichannel experiences and intelligent supply chain operations.',
       capabilities: [
         'E-commerce platforms',

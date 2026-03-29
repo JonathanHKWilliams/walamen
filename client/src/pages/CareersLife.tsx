@@ -121,12 +121,12 @@ const CareersLife = () => {
               <div className="flex items-center space-x-4">
                 <div className="w-16 h-16 overflow-hidden rounded-lg">
                   <img 
-                    src="/src/assets/images/careers-dropdown.jpg"
+                    src="/images/careers-dropdown.jpg"
                     alt="Cloud Architecture"
                     className="w-full h-full object-cover"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
-                      target.src = `https://images.unsplash.com/photo-1557804506-669a67965ba0?w=100&q=80&auto=format&fit=crop`;
+                      target.src = "/images/careers-dropdown.jpg";
                     }}
                   />
                 </div>
@@ -145,12 +145,12 @@ const CareersLife = () => {
               <div className="flex items-center space-x-4">
                 <div className="w-16 h-16 overflow-hidden rounded-lg">
                   <img 
-                    src="/src/assets/images/careers-dropdown.jpg"
+                    src="/images/careers-dropdown.jpg"
                     alt="Software Engineering"
                     className="w-full h-full object-cover"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
-                      target.src = `https://images.unsplash.com/photo-1557804506-669a67965ba0?w=100&q=80&auto=format&fit=crop`;
+                      target.src = "/images/careers-dropdown.jpg";
                     }}
                   />
                 </div>
@@ -169,12 +169,12 @@ const CareersLife = () => {
               <div className="flex items-center space-x-4">
                 <div className="w-16 h-16 overflow-hidden rounded-lg">
                   <img 
-                    src="/src/assets/images/careers-dropdown.jpg"
+                    src="/images/careers-dropdown.jpg"
                     alt="Strategy Consulting"
                     className="w-full h-full object-cover"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
-                      target.src = `https://images.unsplash.com/photo-1557804506-669a67965ba0?w=100&q=80&auto=format&fit=crop`;
+                      target.src = "/images/careers-dropdown.jpg";
                     }}
                   />
                 </div>
@@ -193,12 +193,12 @@ const CareersLife = () => {
               <div className="flex items-center space-x-4">
                 <div className="w-16 h-16 overflow-hidden rounded-lg">
                   <img 
-                    src="/src/assets/images/careers-dropdown.jpg"
+                    src="/images/careers-dropdown.jpg"
                     alt="Data Engineering"
                     className="w-full h-full object-cover"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
-                      target.src = `https://images.unsplash.com/photo-1557804506-669a67965ba0?w=100&q=80&auto=format&fit=crop`;
+                      target.src = "/images/careers-dropdown.jpg";
                     }}
                   />
                 </div>
@@ -217,12 +217,12 @@ const CareersLife = () => {
               <div className="flex items-center space-x-4">
                 <div className="w-16 h-16 overflow-hidden rounded-lg">
                   <img 
-                    src="/src/assets/images/careers-dropdown.jpg"
+                    src="/images/careers-dropdown.jpg"
                     alt="DevOps Engineering"
                     className="w-full h-full object-cover"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
-                      target.src = `https://images.unsplash.com/photo-1557804506-669a67965ba0?w=100&q=80&auto=format&fit=crop`;
+                      target.src = "/images/careers-dropdown.jpg";
                     }}
                   />
                 </div>
@@ -241,12 +241,12 @@ const CareersLife = () => {
               <div className="flex items-center space-x-4">
                 <div className="w-16 h-16 overflow-hidden rounded-lg">
                   <img 
-                    src="/src/assets/images/careers-dropdown.jpg"
+                    src="/images/careers-dropdown.jpg"
                     alt="AI/ML Engineering"
                     className="w-full h-full object-cover"
                     onError={(e) => {
                       const target = e.target as HTMLImageElement;
-                      target.src = `https://images.unsplash.com/photo-1557804506-669a67965ba0?w=100&q=80&auto=format&fit=crop`;
+                      target.src = "/images/careers-dropdown.jpg";
                     }}
                   />
                 </div>

@@ -63,7 +63,7 @@ const AboutVisionValues = () => {
             </div>
             <div>
               <img
-                src="/src/assets/images/about-vision.jpg"
+                src="/images/about-vision.jpg"
                 alt="Our vision for the future"
                 className="w-full h-96 object-cover rounded-lg"
               />
