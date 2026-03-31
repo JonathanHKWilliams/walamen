@@ -536,7 +536,7 @@ const Home = () => {
       </SectionWrapper>
 
       {/* Why Choose Walamen Section */}
-      <SectionWrapper background="blue" className="py-8 sm:py-12 lg:py-20 bg-[#011d4c]">
+      <SectionWrapper className="py-8 sm:py-12 lg:py-20 bg-[#011d4c]">
         <Container>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             {/* Left side - Title and CTA */}
